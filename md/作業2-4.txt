@@ -1,0 +1,18 @@
+import React, { useState } from 'react';
+import Menultem_13 from './Menultem_13';
+import "./Directory_13.scss"
+
+const Directory_13 = () => {
+    return (
+        <div className="directory-menu">
+            <Menultem_13 name='HATS' remoteUrl='https://i.ibb.co/cvpntL1/hats.png' size=''/>
+            <Menultem_13 name='JACKETS' remoteUrl='https://i.ibb.co/px2tCc3/jackets.png' size=''/>
+            <Menultem_13 name='SNEAKERS' remoteUrl='https://i.ibb.co/0jqHpnp/sneakers.png' size=''/>
+            <Menultem_13 name='WOMENS' remoteUrl='https://i.ibb.co/GCCdy8t/womens.png' size='large'/>
+            <Menultem_13 name='MENS' remoteUrl='https://i.ibb.co/R70vBrQ/men.png' size='large'/>
+        </div>
+    )
+}
+
+export default Directory_13;
+
